@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-03T04:53:38 COT" name="Surefire suite" finished-at="2025-02-03T04:53:45 COT" duration-ms="6527">
+  <suite started-at="2025-02-03T05:16:53 COT" name="Surefire suite" finished-at="2025-02-03T05:16:59 COT" duration-ms="5914">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-02-03T04:53:38 COT" name="Surefire test" finished-at="2025-02-03T04:53:45 COT" duration-ms="6527">
+    <test started-at="2025-02-03T05:16:53 COT" name="Surefire test" finished-at="2025-02-03T05:16:59 COT" duration-ms="5914">
       <class name="runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T04:53:38 COT" name="setUpClass" finished-at="2025-02-03T04:53:39 COT" duration-ms="775" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T05:16:53 COT" name="setUpClass" finished-at="2025-02-03T05:16:54 COT" duration-ms="664" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@56ec6ac0]]>
+                <![CDATA[org.testng.TestRunner@7488c183]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T04:53:39 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T04:53:42 COT" duration-ms="2637" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T05:16:54 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T05:16:57 COT" duration-ms="2393" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,24 +34,10 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The response should contain the message 'Pet deleted' expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The response should contain the message 'Pet deleted' expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at steps.e2e.HU_UserManagementOperations.theResponseShouldConfirmTheLoggedInUserSession(HU_UserManagementOperations.java:80)
-at ✽.the response should confirm the "Logged in user session"(file:///C:/Codigo/local-swagger-petstore-java-restassured/src/test/java/features/e2e/HU_UserManagementE2E.feature:21)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T04:53:42 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T04:53:42 COT" duration-ms="77" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T05:16:57 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T05:16:57 COT" duration-ms="71" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +53,7 @@ at ✽.the response should confirm the "Logged in user session"(file:///C:/Codig
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T04:53:42 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T04:53:42 COT" duration-ms="58" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T05:16:57 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T05:16:57 COT" duration-ms="54" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,7 +69,7 @@ at ✽.the response should confirm the "Logged in user session"(file:///C:/Codig
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T04:53:42 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T04:53:42 COT" duration-ms="48" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T05:16:57 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T05:16:57 COT" duration-ms="53" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +85,7 @@ at ✽.the response should confirm the "Logged in user session"(file:///C:/Codig
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T04:53:42 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T04:53:42 COT" duration-ms="37" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T05:16:57 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T05:16:57 COT" duration-ms="37" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,7 +101,7 @@ at ✽.the response should confirm the "Logged in user session"(file:///C:/Codig
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T04:53:42 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T04:53:42 COT" duration-ms="47" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T05:16:57 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T05:16:57 COT" duration-ms="48" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,7 +117,7 @@ at ✽.the response should confirm the "Logged in user session"(file:///C:/Codig
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T04:53:42 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T04:53:42 COT" duration-ms="42" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T05:16:57 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T05:16:57 COT" duration-ms="42" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,7 +133,7 @@ at ✽.the response should confirm the "Logged in user session"(file:///C:/Codig
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T04:53:42 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T04:53:42 COT" duration-ms="44" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T05:16:57 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T05:16:57 COT" duration-ms="54" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -163,7 +149,7 @@ at ✽.the response should confirm the "Logged in user session"(file:///C:/Codig
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T04:53:42 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T04:53:42 COT" duration-ms="46" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T05:16:57 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T05:16:57 COT" duration-ms="48" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -179,7 +165,7 @@ at ✽.the response should confirm the "Logged in user session"(file:///C:/Codig
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T04:53:42 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T04:53:42 COT" duration-ms="40" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T05:16:57 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T05:16:57 COT" duration-ms="38" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -195,7 +181,7 @@ at ✽.the response should confirm the "Logged in user session"(file:///C:/Codig
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T04:53:42 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T04:53:42 COT" duration-ms="49" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T05:16:57 COT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-03T05:16:57 COT" duration-ms="40" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -211,7 +197,7 @@ at ✽.the response should confirm the "Logged in user session"(file:///C:/Codig
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T04:53:42 COT" name="tearDownClass" finished-at="2025-02-03T04:53:45 COT" duration-ms="2553" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@4426bff1]" started-at="2025-02-03T05:16:57 COT" name="tearDownClass" finished-at="2025-02-03T05:16:59 COT" duration-ms="2306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

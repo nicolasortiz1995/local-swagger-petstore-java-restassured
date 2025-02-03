@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="7.884" tests="11" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.TestRunner" time="7.002" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\nicolas.ortiz\AppData\Local\Temp\surefire6511454377931599137\surefirebooter5747186955287074664.jar C:\Users\nicolas.ortiz\AppData\Local\Temp\surefire6511454377931599137 2025-02-03T04-53-36_358-jvmRun1 surefire6526456974738047518tmp surefire_014470644857530359763tmp"/>
+    <property name="sun.java.command" value="C:\Users\nicolas.ortiz\AppData\Local\Temp\surefire7015588569976601048\surefirebooter11933338586549431202.jar C:\Users\nicolas.ortiz\AppData\Local\Temp\surefire7015588569976601048 2025-02-03T05-16-51_889-jvmRun1 surefire3019641169290337222tmp surefire_06094232915724046084tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Codigo\local-swagger-petstore-java-restassured\target\test-classes;C:\Codigo\local-swagger-petstore-java-restassured\target\classes;C:\Users\nicolas.ortiz\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.24.3\log4j-slf4j-impl-2.24.3.jar;C:\Users\nicolas.ortiz\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\nicolas.ortiz\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\nicolas.ortiz\.m2\repository\org\apache\logging\log4j\log4j-core\2.24.3\log4j-core-2.24.3.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\cucumber-testng\7.10.0\cucumber-testng-7.10.0.jar;C:\Users\nicolas.ortiz\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\cucumber-core\7.10.0\cucumber-core-7.10.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\cucumber-gherkin\7.10.0\cucumber-gherkin-7.10.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.10.0\cucumber-gherkin-messages-7.10.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\datatable\7.10.0\datatable-7.10.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\cucumber-plugin\7.10.0\cucumber-plugin-7.10.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\docstring\7.10.0\docstring-7.10.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\html-formatter\20.2.0\html-formatter-20.2.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\nicolas.ortiz\.m2\repository\org\testng\testng\7.7.0\testng-7.7.0.jar;C:\Users\nicolas.ortiz\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\nicolas.ortiz\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\cucumber-java\7.10.0\cucumber-java-7.10.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.25.0\allure-cucumber7-jvm-2.25.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\nicolas.ortiz\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\nicolas.ortiz\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\nicolas.ortiz\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nicolas.ortiz\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nicolas.ortiz\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nicolas.ortiz\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nicolas.ortiz\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nicolas.ortiz\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\nicolas.ortiz\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nicolas.ortiz\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\nicolas.ortiz\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\nicolas.ortiz\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\nicolas.ortiz\.m2\repository\io\github\cdimascio\dotenv-java\3.1.0\dotenv-java-3.1.0.jar;C:\Users\nicolas.ortiz\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\nicolas.ortiz\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\nicolas.ortiz\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\nicolas.ortiz\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\nicolas.ortiz\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\nicolas.ortiz\AppData\Local\Temp\surefire6511454377931599137\surefirebooter5747186955287074664.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nicolas.ortiz\AppData\Local\Temp\surefire7015588569976601048\surefirebooter11933338586549431202.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22+36-2370"/>
@@ -58,11 +58,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Create, retrieve, log in, and log out a user in one test&quot;, &quot;End-to-End User Management in the Swagger Petstore API&quot;](1)" classname="runners.TestRunner" time="2.651">
-    <failure message="The response should contain the message &apos;Pet deleted&apos; expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The response should contain the message 'Pet deleted' expected [true] but found [false]
-]]></failure>
+  <testcase name="runScenario[&quot;Create, retrieve, log in, and log out a user in one test&quot;, &quot;End-to-End User Management in the Swagger Petstore API&quot;](1)" classname="runners.TestRunner" time="2.403">
     <system-out><![CDATA[
-Scenario: Create, retrieve, log in, and log out a user in one test                  &amp#27;[90m# src/test/java/features/e2e/HU_UserManagementE2E.feature:6&amp#27;[0m
+@happy-path @e2e
+Scenario: Create, retrieve, log in, and log out a user in one test                  &amp#27;[90m# src/test/java/features/e2e/HU_UserManagementE2E.feature:7&amp#27;[0m
 Test Started
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have the API endpoint to create a new user&amp#27;[0m                                &amp#27;[90m# steps.e2e.HU_UserManagementOperations.iHaveTheAPIEndpointToCreateANewUser()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI provide a valid JSON payload with user details&amp#27;[0m                             &amp#27;[90m# steps.e2e.HU_UserManagementOperations.iProvideAValidJSONPayloadWithUserDetails()&amp#27;[0m
@@ -78,21 +77,15 @@ Test Started
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have the API endpoint to log in a user&amp#27;[0m                                    &amp#27;[90m# steps.e2e.HU_UserManagementOperations.iHaveTheAPIEndpointToLogInAUser()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to log in the user with the valid username and password&amp#27;[0m &amp#27;[90m# steps.e2e.HU_UserManagementOperations.iSendAGETRequestToLogInTheUserWithTheValidUsernameAndPassword()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get a &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m status code&amp#27;[0m                                               &amp#27;[90m# steps.e2e.HU_UserManagementOperations.iShouldGetA200StatusCode(int)&amp#27;[0m
-  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mthe response should confirm the &amp#27;[0m&amp#27;[31m&amp#27;[1m"Logged in user session"&amp#27;[0m                     &amp#27;[90m# steps.e2e.HU_UserManagementOperations.theResponseShouldConfirmTheLoggedInUserSession(java.lang.String)&amp#27;[0m
-      &amp#27;[31mjava.lang.AssertionError: The response should contain the message 'Pet deleted' expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at steps.e2e.HU_UserManagementOperations.theResponseShouldConfirmTheLoggedInUserSession(HU_UserManagementOperations.java:80)
-	at ✽.the response should confirm the "Logged in user session"(file:///C:/Codigo/local-swagger-petstore-java-restassured/src/test/java/features/e2e/HU_UserManagementE2E.feature:21)
-&amp#27;[0m
-  &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mI have the API endpoint to log out the current logged in user&amp#27;[0m               &amp#27;[90m# steps.e2e.HU_UserManagementOperations.iHaveTheAPIEndpointToLogOutTheCurrentLoggedInUser()&amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI send a GET request to log out the user &amp#27;[0m&amp#27;[36m&amp#27;[1m"user/logout"&amp#27;[0m                       &amp#27;[90m# steps.e2e.HU_UserManagementOperations.iSendAGETRequestToLogOutTheUserUserLogout(java.lang.String)&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get a &amp#27;[0m&amp#27;[36m&amp#27;[1m200&amp#27;[0m&amp#27;[36m status code&amp#27;[0m                                               &amp#27;[90m# steps.e2e.HU_UserManagementOperations.iShouldGetA200StatusCode(int)&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe response should confirm the &amp#27;[0m&amp#27;[36m&amp#27;[1m"User logged out"&amp#27;[0m                            &amp#27;[90m# steps.e2e.HU_UserManagementOperations.theResponseShouldConfirmTheLoggedInUserSession(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response should confirm the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Logged in user session"&amp#27;[0m                     &amp#27;[90m# steps.e2e.HU_UserManagementOperations.theResponseShouldConfirmTheLoggedInUserSession(java.lang.String)&amp#27;[0m
+Test Started
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have the API endpoint to log out the current logged in user&amp#27;[0m               &amp#27;[90m# steps.e2e.HU_UserManagementOperations.iHaveTheAPIEndpointToLogOutTheCurrentLoggedInUser()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to log out the user &amp#27;[0m&amp#27;[32m&amp#27;[1m"user/logout"&amp#27;[0m                       &amp#27;[90m# steps.e2e.HU_UserManagementOperations.iSendAGETRequestToLogOutTheUserUserLogout(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get a &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m status code&amp#27;[0m                                               &amp#27;[90m# steps.e2e.HU_UserManagementOperations.iShouldGetA200StatusCode(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response should confirm the &amp#27;[0m&amp#27;[32m&amp#27;[1m"User logged out"&amp#27;[0m                            &amp#27;[90m# steps.e2e.HU_UserManagementOperations.theResponseShouldConfirmTheLoggedInUserSession(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;The user successfully adds a pet with a valid ID 1&quot;, &quot;Manage pets in the Swagger Petstore API&quot;](2)" classname="runners.TestRunner" time="0.071">
+  <testcase name="runScenario[&quot;The user successfully adds a pet with a valid ID 1&quot;, &quot;Manage pets in the Swagger Petstore API&quot;](2)" classname="runners.TestRunner" time="0.066">
     <system-out><![CDATA[
 @happy-path @integration-test
 Scenario: The user successfully adds a pet with a valid ID 1                                                              &amp#27;[90m# src/test/java/features/integration/sprint1/HU_AddOrUpdateAPetToTheStore.feature:10&amp#27;[0m
@@ -103,7 +96,7 @@ Test Started
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response body should contain the ID of the new pet&amp#27;[0m                                                             &amp#27;[90m# steps.integration.sprint1.HU_AddANewPetToTheStore.theResponseBodyShouldContainTheIDOfTheNewPet()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;The user successfully adds a pet with a valid ID 2&quot;, &quot;Manage pets in the Swagger Petstore API&quot;](3)" classname="runners.TestRunner" time="0.059">
+  <testcase name="runScenario[&quot;The user successfully adds a pet with a valid ID 2&quot;, &quot;Manage pets in the Swagger Petstore API&quot;](3)" classname="runners.TestRunner" time="0.055">
     <system-out><![CDATA[
 @happy-path @integration-test
 Scenario: The user successfully adds a pet with a valid ID 2                                                                &amp#27;[90m# src/test/java/features/integration/sprint1/HU_AddOrUpdateAPetToTheStore.feature:16&amp#27;[0m
@@ -114,7 +107,7 @@ Test Started
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response body should contain the ID of the new pet&amp#27;[0m                                                               &amp#27;[90m# steps.integration.sprint1.HU_AddANewPetToTheStore.theResponseBodyShouldContainTheIDOfTheNewPet()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Update an existing pet&quot;, &quot;Manage pets in the Swagger Petstore API&quot;](4)" classname="runners.TestRunner" time="0.049">
+  <testcase name="runScenario[&quot;Update an existing pet&quot;, &quot;Manage pets in the Swagger Petstore API&quot;](4)" classname="runners.TestRunner" time="0.053">
     <system-out><![CDATA[
 @alternative-path @integration-test
 Scenario: Update an existing pet                                    &amp#27;[90m# src/test/java/features/integration/sprint1/HU_AddOrUpdateAPetToTheStore.feature:22&amp#27;[0m
@@ -136,7 +129,7 @@ Test Started
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response body should contain the message &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pet deleted"&amp#27;[0m &amp#27;[90m# steps.integration.sprint1.HU_AddANewPetToTheStore.theResponseBodyShouldContainTheMessagePetDeleted(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Find pets by tags&quot;, &quot;Search pets by various criteria&quot;](6)" classname="runners.TestRunner" time="0.047">
+  <testcase name="runScenario[&quot;Find pets by tags&quot;, &quot;Search pets by various criteria&quot;](6)" classname="runners.TestRunner" time="0.048">
     <system-out><![CDATA[
 @happy-path @integration-test
 Scenario: Find pets by tags                                                         &amp#27;[90m# src/test/java/features/integration/sprint2/HU_SearchPetsByTagsAndStatus.feature:7&amp#27;[0m
@@ -158,7 +151,7 @@ Test Started
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m"No tags provided. Try again?"&amp#27;[0m             &amp#27;[90m# steps.integration.sprint2.HU_SearchPetsByTagsAndStatus.theResponseShouldContainArrayList(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Find pets by status&quot;, &quot;Search pets by various criteria&quot;](8)" classname="runners.TestRunner" time="0.044">
+  <testcase name="runScenario[&quot;Find pets by status&quot;, &quot;Search pets by various criteria&quot;](8)" classname="runners.TestRunner" time="0.055">
     <system-out><![CDATA[
 @happy-path @integration-test
 Scenario: Find pets by status                                                               &amp#27;[90m# src/test/java/features/integration/sprint2/HU_SearchPetsByTagsAndStatus.feature:21&amp#27;[0m
@@ -169,7 +162,7 @@ Test Started
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m"available"&amp#27;[0m                                              &amp#27;[90m# steps.integration.sprint2.HU_SearchPetsByTagsAndStatus.theResponseShouldContainArrayList(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Find pets by status with an invalid status&quot;, &quot;Search pets by various criteria&quot;](9)" classname="runners.TestRunner" time="0.047">
+  <testcase name="runScenario[&quot;Find pets by status with an invalid status&quot;, &quot;Search pets by various criteria&quot;](9)" classname="runners.TestRunner" time="0.05">
     <system-out><![CDATA[
 @error-path @integration-test
 Scenario: Find pets by status with an invalid status                                          &amp#27;[90m# src/test/java/features/integration/sprint2/HU_SearchPetsByTagsAndStatus.feature:28&amp#27;[0m
@@ -180,7 +173,7 @@ Test Started
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m"available"&amp#27;[0m                                                &amp#27;[90m# steps.integration.sprint2.HU_SearchPetsByTagsAndStatus.theResponseShouldContainArrayList(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Find pet by ID with a valid ID&quot;, &quot;Search pets by various criteria&quot;](10)" classname="runners.TestRunner" time="0.042">
+  <testcase name="runScenario[&quot;Find pet by ID with a valid ID&quot;, &quot;Search pets by various criteria&quot;](10)" classname="runners.TestRunner" time="0.038">
     <system-out><![CDATA[
 @happy-path @integration-test
 Scenario: Find pet by ID with a valid ID                  &amp#27;[90m# src/test/java/features/integration/sprint2/HU_SearchPetsByTagsAndStatus.feature:35&amp#27;[0m
@@ -191,7 +184,7 @@ Test Started
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m"Pet"&amp#27;[0m                  &amp#27;[90m# steps.integration.sprint2.HU_SearchPetsByTagsAndStatus.theResponseShouldContainArrayList(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;Find pet by ID with an invalid ID&quot;, &quot;Search pets by various criteria&quot;](11)" classname="runners.TestRunner" time="0.05">
+  <testcase name="runScenario[&quot;Find pet by ID with an invalid ID&quot;, &quot;Search pets by various criteria&quot;](11)" classname="runners.TestRunner" time="0.041">
     <system-out><![CDATA[
 @error-path @integration-test
 Scenario: Find pet by ID with an invalid ID                   &amp#27;[90m# src/test/java/features/integration/sprint2/HU_SearchPetsByTagsAndStatus.feature:42&amp#27;[0m
