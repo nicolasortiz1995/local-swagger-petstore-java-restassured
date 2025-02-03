@@ -11,13 +11,13 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <!-- Definir versiones de dependencias para asegurar compatibilidad -->
+        <!-- Define dependency versions to ensure compatibility -->
         <cucumber.version>7.10.0</cucumber.version>
         <allure.version>2.25.0</allure.version>
         <testng.version>7.8.0</testng.version>
         <restassured.version>5.3.0</restassured.version>
         <dotenv.version>3.1.0</dotenv.version>
-        <!-- Definir versiones de plugins para ejecutar acciones -->
+        <!-- Define plugin versions to execute actions -->
         <maven.surefire.plugin.version>3.0.0-M5</maven.surefire.plugin.version>
         <allure.maven.plugin.version>2.15.2</allure.maven.plugin.version>
         <maven.clean.plugin.version>3.1.0</maven.clean.plugin.version>
@@ -36,7 +36,7 @@
     </dependencyManagement>
 
     <dependencies>
-        <!-- Corregir 'Failed to load class "org.slf4j.impl...' -->
+        <!-- Fix 'Failed to load class "org.slf4j.impl...' -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-slf4j-impl</artifactId>
@@ -87,7 +87,7 @@
 
     <build>
         <plugins>
-            <!-- Plugin de compilación de Maven -->
+            <!-- Maven Compiler Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -97,13 +97,13 @@
                     <target>${maven.compiler.target}</target>
                 </configuration>
             </plugin>
-            <!-- Plugin de Allure para generar reportes -->
+            <!-- Allure Plugin to generate reports -->
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
                 <version>${allure.maven.plugin.version}</version>
             </plugin>
-            <!-- Plugin para limpiar la carpeta allure-results antes de ejecutar las pruebas -->
+            <!-- Plugin to clean the allure-results folder before running tests -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-clean-plugin</artifactId>
@@ -120,7 +120,7 @@
     </build>
 
     <profiles>
-        <!-- Perfil para ejecutar todas las pruebas -->
+        <!-- Profile to run all tests -->
         <profile>
             <id>all-tests</id>
             <build>
@@ -139,9 +139,9 @@
             </build>
         </profile>
 
-        <!-- Perfil para pruebas con escenarios fallidos -->
+        <!-- Profile for tests with failed scenarios -->
         <profile>
-            <id>rutas-tristes</id>
+            <id>sad-paths</id>
             <build>
                 <plugins>
                     <plugin>
@@ -153,7 +153,7 @@
                                 <include>**/TestRunner.java</include>
                             </includes>
                             <systemPropertyVariables>
-                                <cucumber.filter.tags>@ruta-triste</cucumber.filter.tags>
+                                <cucumber.filter.tags>@error-path</cucumber.filter.tags>
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
@@ -161,7 +161,7 @@
             </build>
         </profile>
 
-        <!-- Perfil para pruebas del sprint 1 -->
+        <!-- Profile for tests with successful scenarios -->
         <profile>
             <id>sprint1</id>
             <build>
@@ -175,7 +175,7 @@
                                 <include>**/TestRunner.java</include>
                             </includes>
                             <systemPropertyVariables>
-                                <cucumber.filter.tags>@sprint1</cucumber.filter.tags>
+                                <cucumber.filter.tags>@happy-path</cucumber.filter.tags>
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
@@ -183,7 +183,7 @@
             </build>
         </profile>
 
-        <!-- Perfil para pruebas del sprint 2 -->
+        <!-- Profile for e2e tests -->
         <profile>
             <id>sprint2</id>
             <build>
@@ -197,7 +197,7 @@
                                 <include>**/TestRunner.java</include>
                             </includes>
                             <systemPropertyVariables>
-                                <cucumber.filter.tags>@sprint2</cucumber.filter.tags>
+                                <cucumber.filter.tags>@e2e</cucumber.filter.tags>
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
@@ -205,7 +205,7 @@
             </build>
         </profile>
 
-        <!-- Perfil para pruebas del sprint 3 -->
+        <!-- Profile for integration tests -->
         <profile>
             <id>sprint3</id>
             <build>
@@ -219,7 +219,7 @@
                                 <include>**/TestRunner.java</include>
                             </includes>
                             <systemPropertyVariables>
-                                <cucumber.filter.tags>@sprint3</cucumber.filter.tags>
+                                <cucumber.filter.tags>@integration-test</cucumber.filter.tags>
                             </systemPropertyVariables>
                         </configuration>
                     </plugin>
