@@ -1,0 +1,34 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  As a user of the Swagger Petstore API
+  I want to search for pets using different criteria
+  So that I can find pets based on their tags, status, or ID","22","Find pet by ID with a valid ID","","Mon Feb 03 05:59:38 COT 2025","passed","Mon Feb 03 05:59:38 COT 2025","","Search pets by various criteria","Find pet by ID with a valid ID",""
+"  As a user of the Swagger Petstore API
+  I want to search for pets using different criteria
+  So that I can find pets based on their tags, status, or ID","30","Find pets by status","","Mon Feb 03 05:59:38 COT 2025","passed","Mon Feb 03 05:59:38 COT 2025","","Search pets by various criteria","Find pets by status",""
+"  As a user of the Swagger Petstore API
+  I want to search for pets using different criteria
+  So that I can find pets based on their tags, status, or ID","19","Find pets by tags with an invalid tag","","Mon Feb 03 05:59:38 COT 2025","passed","Mon Feb 03 05:59:38 COT 2025","","Search pets by various criteria","Find pets by tags with an invalid tag",""
+"  As a user of the Swagger Petstore API
+  I want to create, retrieve, log in, and log out a user
+  So that I can test the entire user management flow from start to finish","2548","Create, retrieve, log in, and log out a user in one test","","Mon Feb 03 05:59:35 COT 2025","passed","Mon Feb 03 05:59:38 COT 2025","","End-to-End User Management in the Swagger Petstore API","Create, retrieve, log in, and log out a user in one test",""
+"  As a user of the Swagger Petstore API
+  I want to manage pets in the store
+  So that I can perform CRUD operations (Create, Read, Update, Delete) on pets","27","Update an existing pet","","Mon Feb 03 05:59:38 COT 2025","passed","Mon Feb 03 05:59:38 COT 2025","","Manage pets in the Swagger Petstore API","Update an existing pet",""
+"  As a user of the Swagger Petstore API
+  I want to manage pets in the store
+  So that I can perform CRUD operations (Create, Read, Update, Delete) on pets","44","The user successfully adds a pet with a valid ID 1","","Mon Feb 03 05:59:38 COT 2025","passed","Mon Feb 03 05:59:38 COT 2025","","Manage pets in the Swagger Petstore API","The user successfully adds a pet with a valid ID 1",""
+"  As a user of the Swagger Petstore API
+  I want to search for pets using different criteria
+  So that I can find pets based on their tags, status, or ID","22","Find pets by tags","","Mon Feb 03 05:59:38 COT 2025","passed","Mon Feb 03 05:59:38 COT 2025","","Search pets by various criteria","Find pets by tags",""
+"  As a user of the Swagger Petstore API
+  I want to search for pets using different criteria
+  So that I can find pets based on their tags, status, or ID","33","Find pets by status with an invalid status","","Mon Feb 03 05:59:38 COT 2025","passed","Mon Feb 03 05:59:38 COT 2025","","Search pets by various criteria","Find pets by status with an invalid status",""
+"  As a user of the Swagger Petstore API
+  I want to search for pets using different criteria
+  So that I can find pets based on their tags, status, or ID","21","Find pet by ID with an invalid ID","","Mon Feb 03 05:59:38 COT 2025","passed","Mon Feb 03 05:59:38 COT 2025","","Search pets by various criteria","Find pet by ID with an invalid ID",""
+"  As a user of the Swagger Petstore API
+  I want to manage pets in the store
+  So that I can perform CRUD operations (Create, Read, Update, Delete) on pets","22","The user successfully deletes a pet with ID 2","","Mon Feb 03 05:59:38 COT 2025","passed","Mon Feb 03 05:59:38 COT 2025","","Manage pets in the Swagger Petstore API","The user successfully deletes a pet with ID 2",""
+"  As a user of the Swagger Petstore API
+  I want to manage pets in the store
+  So that I can perform CRUD operations (Create, Read, Update, Delete) on pets","48","The user successfully adds a pet with a valid ID 2","","Mon Feb 03 05:59:38 COT 2025","passed","Mon Feb 03 05:59:38 COT 2025","","Manage pets in the Swagger Petstore API","The user successfully adds a pet with a valid ID 2",""

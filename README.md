@@ -246,6 +246,8 @@ Each `.feature` file includes tagged scenarios to facilitate organization and ex
 -  **`HU_UserManagementE2E.feature`**
 ![E11.png](fixtures/flowcharts/E11.png)
 
+## Final report (Allure)
+![R1.png](fixtures/flowcharts/R1.png)
 
 ## Developed By
 
