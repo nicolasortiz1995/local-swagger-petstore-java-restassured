@@ -1,0 +1,4 @@
+runners\TestRunner.class
+steps\integration\sprint1\HU_AddANewPetToTheStore.class
+steps\integration\sprint2\HU_SearchPetsByTagsAndStatus.class
+steps\e2e\HU_UserManagementOperations.class

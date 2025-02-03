@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.884 s <<< FAILURE! - in runners.TestRunner
+runners.TestRunner.runScenario["Create, retrieve, log in, and log out a user in one test", "End-to-End User Management in the Swagger Petstore API"](1)  Time elapsed: 2.651 s  <<< FAILURE!
+java.lang.AssertionError: The response should contain the message 'Pet deleted' expected [true] but found [false]
+

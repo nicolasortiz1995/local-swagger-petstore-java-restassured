@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 03 04:53:38 COT 2025</td>
+</tr>
+<tr><td>Total time:</td><td>6 seconds (6527 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create, retrieve, log in, and log out a user in one test", "End-to-End User Management in the Swagger Petstore API"</td>
+<td><div><pre>java.lang.AssertionError: The response should contain the message &apos;Pet deleted&apos; expected [true] but found [false]
+	at steps.e2e.HU_UserManagementOperations.theResponseShouldConfirmTheLoggedInUserSession(HU_UserManagementOperations.java:80)
+	at ✽.the response should confirm the &quot;Logged in user session&quot;(file:///C:/Codigo/local-swagger-petstore-java-restassured/src/test/java/features/e2e/HU_UserManagementE2E.feature:21)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace216688561", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace216688561'><pre>java.lang.AssertionError: The response should contain the message &apos;Pet deleted&apos; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at steps.e2e.HU_UserManagementOperations.theResponseShouldConfirmTheLoggedInUserSession(HU_UserManagementOperations.java:80)
+	at ✽.the response should confirm the &quot;Logged in user session&quot;(file:///C:/Codigo/local-swagger-petstore-java-restassured/src/test/java/features/e2e/HU_UserManagementE2E.feature:21)
+</pre></div></td>
+<td>2</td>
+<td>runners.TestRunner@4426bff1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update an existing pet", "Manage pets in the Swagger Petstore API"</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner@4426bff1</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Find pet by ID with an invalid ID", "Search pets by various criteria"</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner@4426bff1</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user successfully adds a pet with a valid ID 1", "Manage pets in the Swagger Petstore API"</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner@4426bff1</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user successfully adds a pet with a valid ID 2", "Manage pets in the Swagger Petstore API"</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner@4426bff1</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Find pets by status with an invalid status", "Search pets by various criteria"</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner@4426bff1</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Find pets by status", "Search pets by various criteria"</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner@4426bff1</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user successfully deletes a pet with ID 2", "Manage pets in the Swagger Petstore API"</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner@4426bff1</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Find pet by ID with a valid ID", "Search pets by various criteria"</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner@4426bff1</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Find pets by tags with an invalid tag", "Search pets by various criteria"</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner@4426bff1</td></tr>
+<tr>
+<td title='runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Find pets by tags", "Search pets by various criteria"</td>
+<td></td>
+<td>0</td>
+<td>runners.TestRunner@4426bff1</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,5 @@
+utils\DataGenerator.class
+utils\GlobalVariables.class
+org\example\pages\MethodsPage.class
+utils\GeneratePayloads.class
+utils\EnvironmentConfiguration.class
